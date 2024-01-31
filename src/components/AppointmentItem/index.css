@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.item-card {
+  border: solid 1px grey;
+  font-family: roboto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  width: 25vw;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+.dateday {
+  color: grey;
+  font-family: roboto;
+}
+.name {
+  color: #171f46;
+  font-weight: bold;
+  font-size: 20px;
+}
+.star {
+  height: 20px;
+}
+.name-star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 45px;
+}
+.button-star {
+  background-color: transparent;
+  border: none;
+}
+@media (width<=576px) {
+  .item-card {
+    border: solid 1px grey;
+    font-family: roboto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    width: 80vw;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+  }
+}
